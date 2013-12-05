@@ -1,0 +1,28 @@
+{
+  "name": "fossil-archiver",
+  "version": "0.0.0",
+  "description": "Backup encrypted archives, including Amazon Glacier support",
+  "main": "fossil.coffee",
+  "scripts": {
+    "test": "vows --spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/AsaAyers/fossil-archiver.git"
+  },
+  "keywords": [
+    "glacier",
+    "backup"
+  ],
+  "author": "Asa Ayers <Asa@AsaAyers.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AsaAyers/fossil-archiver/issues"
+  },
+  "homepage": "https://github.com/AsaAyers/fossil-archiver",
+  "dependencies": {
+    "coffee-injector": "git://github.com/AsaAyers/coffee-injector.git",
+    "vows": "~0.7.0",
+    "q": "~0.9.7"
+  }
+}

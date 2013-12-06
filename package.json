@@ -4,7 +4,7 @@
   "description": "Backup encrypted archives, including Amazon Glacier support",
   "main": "fossil.coffee",
   "scripts": {
-    "test": "vows --spec"
+    "test": "vows --spec --cover-html"
   },
   "repository": {
     "type": "git",
@@ -22,7 +22,10 @@
   "homepage": "https://github.com/AsaAyers/fossil-archiver",
   "dependencies": {
     "coffee-injector": "git://github.com/AsaAyers/coffee-injector.git",
-    "vows": "~0.7.0",
     "q": "~0.9.7"
+  },
+  "devDependencies": {
+    "vows": "~0.7.0",
+    "coffee-coverage": "~0.3.0"
   }
 }

@@ -1,3 +1,5 @@
+require './coverage.coffee'
+
 stream = require 'stream'
 vows = require 'vows'
 assert = require 'assert'
@@ -72,7 +74,7 @@ vows.describe('FileStream').addBatch({
                     '.vim':
                         bundle: {}
 
-        'mockReadDir':
+        'readDir':
             "home/asa": contains [ '.vimrc', '.vim' ]
             'home/asa/.vim': contains [ 'bundle' ]
 

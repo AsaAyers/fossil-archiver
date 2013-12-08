@@ -15,12 +15,12 @@ Requirements
 * Don't get too far ahead of post-processing.
  * These files are only one step, they will probably be encrypted and uploaded.
 
+
     cp = require 'child_process'
     stream = require 'stream'
     Q = require 'q'
     tmp = require 'tmp'
     fs = require 'fs'
-
 
     module.exports = class Tar extends stream.Duplex
 

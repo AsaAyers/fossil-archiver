@@ -3,3 +3,7 @@ require('coffee-coverage').register({
     basePath: __dirname+"/../lib",
     initAll: true
 })
+
+process.on 'uncaughtException', (err) ->
+    console.log('Caught exception: ' + err)
+    console.log('stack: ' + err.stack)

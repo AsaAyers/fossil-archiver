@@ -22,10 +22,15 @@
   "homepage": "https://github.com/AsaAyers/fossil-archiver",
   "dependencies": {
     "coffee-injector": "git://github.com/AsaAyers/coffee-injector.git",
-    "q": "~0.9.7"
+    "q": "~0.9.7",
+    "tmp": "0.0.23",
+    "underscore": "~1.5.2",
+    "event-stream": "~3.0.18"
   },
   "devDependencies": {
     "vows": "~0.7.0",
-    "coffee-coverage": "~0.3.0"
+    "coffee-coverage": "~0.3.0",
+    "grunt": "~0.4.2",
+    "grunt-contrib-watch": "~0.5.3"
   }
 }

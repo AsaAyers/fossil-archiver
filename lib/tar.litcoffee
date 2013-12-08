@@ -15,6 +15,7 @@ Requirements
 * Don't get too far ahead of post-processing.
  * These files are only one step, they will probably be encrypted and uploaded.
 
+(trying to fix markdown formatting)
 
     cp = require 'child_process'
     stream = require 'stream'
